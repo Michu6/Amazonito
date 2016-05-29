@@ -1,0 +1,47 @@
+body {
+	font-family: "Raleway", arial, sans-serif;
+}
+#app {
+	width: 320px;
+	height: 568px;	
+}
+#welcome {
+	background-image: url("../svg/indexBg.svg");
+	background-repeat: no-repeat;
+	background-size: 320px 568px;
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: 200px;
+}
+#welcome span {
+	font-weight: 700;
+	font-size: 2em;
+}
+#welcome p {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.indexBosq {
+	position: relative;
+	bottom: -150px;
+	width: 100%;
+}
+.butn {
+	margin-bottom: 20px;
+}
+.btnSession {
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 45px;
+	padding: 10px 30px;
+	color: black;
+	font-weight: 600;
+}
+.btnRegister{
+	background-color: rgba(255,255,255,0.3);
+	border: 2px solid white;
+	border-radius: 45px;
+	padding: 10px 30px;
+	color: black;
+	font-weight: 600;
+}
